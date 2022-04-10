@@ -1,0 +1,115 @@
+:root {
+  --dark-green-color: #78938A;
+  --light-green-color: #92BA92;
+  --yellow-color: #F1DDBF;
+  --blue-color: #525E75;
+}
+
+body {
+  background: var(--dark-green-color);
+  margin: 0;
+  font-family: "Verdana";
+}
+
+a {
+  color: var(--blue-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.navbar {
+  background: var(--yellow-color);
+  padding: 1em;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--blue-color);
+  font-size: 1.2em;
+}
+
+.navbar .logo span {
+  color: var(--dark-green-color);
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero .subhead {
+  font-size: 1.4em;
+  color: var(--yellow-color);
+}
+
+.hero h1 {
+  color: var(--yellow-color);
+  font-size: 4em;
+  line-height: 1.3em;
+}
+
+.hero .hero-cta {
+  background: var(--light-green-color);
+  color: var(--blue-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.4em;
+  padding: .6em 6em;
+  border-radius: 5em;
+  display: inline-block;
+  margin-top: 5em;
+  margin-bottom: 10em;
+}
+
+.about-section {
+  text-align: center;
+  background: var(--yellow-color);
+}
+
+.about-section .about-head {
+  color: var(--blue-color);
+  font-size: 2em;
+}
+
+.about-section p {
+  color: var(--blue-color);
+  font-size: 2em;
+  margin-bottom: 6em;
+}
+
+.wave-div {
+  position: relative;
+  background: var(--yellow-color);
+}
+
+.waves-image {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+  top: 75px;
+  left: 75px;
+}
+/*# sourceMappingURL=main.css.map */
