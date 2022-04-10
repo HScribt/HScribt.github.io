@@ -100,17 +100,15 @@ section {
     }
 }
 
-.wave-div {
+.wave-section {
     position: relative;
+    height: 100%;
     background: var(--yellow-color);
 }
 
 .waves-image {
     position: absolute;
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
-    /* ie8 */
-    top: 75px;
-    left: 75px;
+    left: 0;
+    bottom: 0em;
+    width: 100%;
 }
